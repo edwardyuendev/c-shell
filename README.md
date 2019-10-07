@@ -1,4 +1,4 @@
-# The goals of this project were to:
+# The Goals of this Project were:
 1. develop a simple shell application
 2. understand important Unix system calls
 3. improve proficiency with C language
@@ -11,6 +11,12 @@ The shell is able to execute commands, redirect standard input or standard outpu
 The structure of the program is essentially:
 1. Parses the input entered through the Terminal or Command Line
 2. Based on parsed input, different booleans are set causing different fork(), exec(), and dup() calls where necessary
+
+# How To Run
+1. Have the Makefile and simple_shell.c file in the same directory
+2. Type "make"
+3. Type "./simple_shell" in order to run
+
 
 # Restrictions: 
 - Only one '&' character can appear and must be the last on the command line
