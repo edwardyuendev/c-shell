@@ -1,4 +1,4 @@
-1.The goals of this project was to:**
+**The goals of this project was to:**
   - to understand important Unix system calls
   - to develop a simple shell application
 
