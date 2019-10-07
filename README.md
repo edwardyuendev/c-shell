@@ -17,9 +17,8 @@ The structure of the program is essentially:
 2. Type "make"
 3. Type "./simple_shell" in order to run
 
-
 # Restrictions: 
 - Only one '&' character can appear and must be the last on the command line
 - Only the **first** command can have its input redirected and only the **last** can have its output redirected.
-- In the case of a single command, you can apply both the input and output redirection to the command ( cat < x > y )
+- In the case of a single command, you can apply both the input and output redirection to the command cat < x > y.
 - Wrote code to specifically work on Linux (Fedora OS), but works on Mac OSX as well. Not tested on Windows.
