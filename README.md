@@ -1,11 +1,12 @@
 # The goals of this project were to:
-1. understand important Unix system calls
-2. develop a simple shell application
+1. develop a simple shell application
+2. understand important Unix system calls
+3. improve proficiency with C language
 
 # Shell Description
 The application is intended as a shell (command line interpreter) that accepts input from the user and executes the commands that are given. It will be most similar to the well-known shell *bash*.
 
-The shell is able to execute commands, redirect standard input or standard output to files, pipe output of commands to other commands, and executes commands in the background. It can run most commands that * *bash* * can run and can process the metacharacters: '<', '>', '|', and '&'.
+The shell is able to execute commands, redirect standard input or standard output to files, pipe output of commands to other commands, and executes commands in the background. It can run most commands that *bash* can run and can process the metacharacters: '<', '>', '|', and '&'.
 
 The structure of the program is essentially:
 1. Parses the input entered through the Terminal or Command Line
